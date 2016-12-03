@@ -112,6 +112,13 @@ struct maStructure {
 }
 ```
 
+Pour arrêter l'éxécution :
+```
+throw;
+```
+
+C'est tout !
+
 
 
 
