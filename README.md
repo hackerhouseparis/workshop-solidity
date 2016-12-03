@@ -60,17 +60,45 @@ __Syntaxe solidity à connaître :__
 
 Type `address` contenant la clé publique  :
 ```
-address public mineur;
+address mineur;
 ```
 
 Déclarer une variable publique :
 ```
-uint public maVariable;
+address public mineur;
 ```
 est équivalent à
 ```
 function mineur() returns (address) { return mineur; }
 ```
+Récupérer l'adresseur du mineur (variable globale) :
+```
+mineur = msg.sender;
+```
+
+Créer un tableau associatif (table de hashage) :
+```
+mapping (address => uint) public balances;
+```
+
+Assigner / récupérer la valeur d'un tableau
+```
+balances[cle] = valeur;
+```
+
+Les opérateurs `+`, `-`, `<`, `>` permettent respectivement d'additionner, soustraire et de comparer.
+
+Faire une condition :
+```
+if (0 < 1) {
+    /* code */
+}
+```
+
+
+Niveau 3
+--------
+
 
 
 
