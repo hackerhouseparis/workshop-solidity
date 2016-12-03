@@ -98,7 +98,7 @@ if (0 < 1) {
 Niveau 3
 --------
 
-__Obejctif :__ créer un système de vote.
+__Obejctif :__ créer un système de vote par procuration.
 
 __Syntaxe solidity à connaître :__
 
