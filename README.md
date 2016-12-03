@@ -5,7 +5,7 @@ Aller sur https://ethereum.github.io/browser-solidity/ .
 Niveau 0
 --------
 
-__Obejctif :__ créer un smart contract avec une déclaration et une assignation de variable.
+__Objectif :__ créer un smart contract avec une déclaration et une assignation de variable.
 
 __Syntaxe solidity à connaître :__
 
@@ -16,7 +16,7 @@ pragma solidity ^0.4.4;
 
 Déclarer un smart contract :
 ```
-MonSamrtContract {
+MonSmartContract {
 /* contenu du smart contract */
 }
 ```
@@ -32,7 +32,7 @@ function set(uint x) {
 }
 ```
 
-Assigantion de variable :
+Assignation de variable :
 ```
 maVariable = x;
 ```
@@ -40,7 +40,7 @@ maVariable = x;
 Niveau 1
 --------
 
-__Obejctif :__ dans le smart contract *niveau 0*, ajouter un accesseur `get()` pour récupérer la valeur de `maVariable`.
+__Objectif :__ dans le smart contract *niveau 0*, ajouter un accesseur `get()` pour récupérer la valeur de `maVariable`.
 
 __Syntaxe solidity à connaître :__
 
@@ -54,7 +54,7 @@ function get() constant returns (uint) {
 Niveau 2
 --------
 
-__Obejctif :__ créer une cryptomonnaie.
+__Objectif :__ créer une cryptomonnaie.
 
 __Syntaxe solidity à connaître :__
 
@@ -98,7 +98,7 @@ if (0 < 1) {
 Niveau 3
 --------
 
-__Obejctif :__ créer un système de vote par procuration.
+__Objectif :__ créer un système de vote par procuration.
 
 __Syntaxe solidity à connaître :__
 
@@ -118,7 +118,3 @@ throw;
 ```
 
 C'est tout !
-
-
-
-
