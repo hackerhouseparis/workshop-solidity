@@ -40,7 +40,7 @@ maVariable = x;
 Niveau 1
 --------
 
-__Obejctif :__ dans le smaert contract *niveau 0*, ajouter un accesseur `get()` pour récupérer la valeur de `maVariable`.
+__Obejctif :__ dans le smart contract *niveau 0*, ajouter un accesseur `get()` pour récupérer la valeur de `maVariable`.
 
 __Syntaxe solidity à connaître :__
 
@@ -95,9 +95,22 @@ if (0 < 1) {
 }
 ```
 
-
 Niveau 3
 --------
+
+__Obejctif :__ créer un système de vote.
+
+__Syntaxe solidity à connaître :__
+
+Type `struct` :
+```
+struct maStructure {
+    uint maVariable;
+    bool aVote; // de type boolean
+    address procuration; // pouvoir personne
+    // autres variables
+}
+```
 
 
 
